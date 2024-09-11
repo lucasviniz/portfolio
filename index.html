@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Portfólio</title>
+</head>
+<body>
+    <header>
+        <div class="intro">
+            <div>
+                <p id="typed-text"></p>
+                <h1 id="typed-name" class="hidden-text">Eu sou Lucas Ivo, <strong id="stack">Engenheiro de Software</strong></h1>
+                <div id="typed-description" class="hidden-text divider">
+                    <p>Conheça um pouco mais sobre mim.</p>
+                </div>
+            </div>
+    
+            <div id="load-bar" class="loading-bar hidden-text">
+                <div class="inner-bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="info">
+        <section id="sobre">
+            <h2 class="divider-right">Sobre Mim</h2>
+            <br>
+            <div>
+                <p>
+                    Sou um desenvolvedor web fullstack apaixonado por tecnologia e inovação, dedicado a transformar ideias em soluções criativas. Com anos de experiência na area,  sou especialista em criar experiências de usuário intuitivas.
+                </p>
+                <P>
+                    Estou envolvido em todas as etapas do processo: da descoberta e design ao desenvolvimento, teste e implantação. Meu foco é entregar resultados escaláveis e de alta qualidade que gerem experiências positivas para o usuário.
+                </P>
+            </div>
+        </section>
+
+        <br>
+        <br>
+    
+        <section id="portfolio">
+            <h2 class="divider-right">Projetos</h2>
+
+            <div class="container-projetos">
+                <div class="projeto">
+                    <div class="projeto-img">
+                        <img src="./imagens/projeto1.png" alt="Imagem do Projeto 1">
+                    </div>
+                    <div class="project-description">
+                        <h3>CoffeeDelivery</h3>
+                        <br>
+                        <p>O CoffeeDelivery é um serviço de entrega de café premium que oferece cafés artesanais de alta qualidade diretamente na porta do cliente. Utilizando um aplicativo intuitivo, os clientes podem fazer pedidos personalizados e acompanhar a entrega em tempo real. O serviço garante café fresco e quente em menos de 30 minutos, utilizando embalagens ecológicas e promovendo a sustentabilidade.</p>
+                    </div>
+                </div>
+                <div class="projeto">
+
+                    <div class="projeto-img">
+                        <img src="./imagens/projeto2.png" alt="Imagem do Projeto 2">
+                        
+                    </div>
+                    <div class="project-description">
+                        <h3>CoffeeDelivery</h3>
+                        <br>
+                        <p>Um timer digital prático e fácil de usar. Perfeito para cozinhar, estudar, fazer exercícios ou qualquer outra atividade que precise de um cronômetro preciso.                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br>
+        <br>
+
+        
+
+    </div>
+
+   
+
+    <footer>
+        <section class="contato">
+            <h2>Gostou do que viu? Entre em Contato</h2>
+            <br>
+            <form action="https://formspree.io/f/xgvwboow" class="form-contact" method="POST">
+                <input class="input-contact" type="text" name="name" placeholder="Seu Nome" required>
+                <input class="input-contact" type="email" name="email" placeholder="Seu Email" required>
+                <textarea class="text-area" name="message" placeholder="Sua Mensagem" required></textarea>
+                <button class="btn-email" type="submit">ENVIAR EMAIL</button>
+            </form>
+        </section>
+        <p>Contato: programmerxl013@gmail.com</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
